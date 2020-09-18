@@ -15,7 +15,7 @@ path = 'name.txt'
 
 # Slackへテキストを通知
 def send_text(text):
-    slack_url = 'https://hooks.slack.com/services/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'
+    slack_url = 'YOUR WEBHOOK URL' ###
     data = json.dumps({
         'username': 'bot',
         'text': text
